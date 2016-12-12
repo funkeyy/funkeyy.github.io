@@ -1,0 +1,111 @@
+body {
+	background-image: url("");
+    background-color: white;
+}
+@font-face {
+    font-family: "avenir";
+    src: url("../fonts/avenir.ttf") format("truetype");
+    font-family: "avenir-medium";
+    src: url("../fonts/avenir-medium.ttf") format("truetype");
+}
+.navBar{
+	background-color: white;
+	width: 375px;
+	height: 60px;
+}
+
+.navText {
+	float:left;
+	font-family: avenir-medium;
+	font-size: 15px;
+	color: #2850A0;
+	padding-top: 24px;
+	padding-left: 18px;
+}
+
+.imageHolderRight {
+	float: right;
+	padding-top: 20px;
+	padding-right: 4px;
+}
+.imageHolderLeft {
+	float: left;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+.holder{
+	background-image: url("../images/bg.png");
+	background-repeat: no-repeat;
+	background-color: black;
+	width: 375px;
+	height: 700px;
+	margin-top: -11px;
+	margin-left: -10px;
+	margin-right: auto;
+}
+.timeHolder {
+	font-family: avenir;
+	font-size: 22px;
+	color: #CB0073;"
+}
+
+.timeDisplayHolder{
+	background-image: url("../images/timebg.png");
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 300px;
+	margin-top: -22px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#countdownBG{
+	background-image: url("../images/counter.png");
+	background-repeat: no-repeat;
+	width: 325px;
+	height: 80px;
+
+}
+#countdown{
+	margin-left: 62px ;
+	padding-top: 36px;
+	height: 80px;
+}
+
+.expire{
+	height: 47px;
+	width: 325px;
+	font-family: avenir-medium;
+	font-size: 22px;
+	color: #CB0073;
+	padding-top: 5px;
+	padding-left: 26px;
+	margin: auto;
+	margin-bottom: ;
+}
+
+.firstWeek{
+	background-image: url("../images/firstweek.png");
+	background-repeat: no-repeat;
+	height: 47px;
+	width: 325px;
+	margin: auto;
+	margin-bottom: 5px;
+}
+
+.details{
+	background-image: url("../images/details.png");
+	background-repeat: no-repeat;
+	height: 138px;
+	width: 325px;
+	margin: auto;
+}
+
+h1 {
+	font-family: "arial";
+	font-size: 80px;
+	color:white;
+	margin-left: 50px;
+}
+
