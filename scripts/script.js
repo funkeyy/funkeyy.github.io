@@ -16,7 +16,7 @@ function checkTime(i) {
     return i;
 }
 
-CountDownTimer('12/22/2016 11:59 PM', 'countdown');
+CountDownTimer('01/12/2017 11:59 PM', 'countdown');
 
 function CountDownTimer(dt, id) {
     var end = new Date(dt);
