@@ -15,7 +15,7 @@ function checkTime(i) {
     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
     return i;
 }
-CountDownTimer('03/23/2017 11:59 PM', 'countdown');
+CountDownTimer('03/30/2017 11:59 PM', 'countdown');
 
 function CountDownTimer(dt, id) {
     var end = new Date(dt);
